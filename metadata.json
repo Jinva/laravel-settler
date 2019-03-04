@@ -1,0 +1,15 @@
+{
+    "name": "laravel/homestead",
+    "versions":
+    [
+        {
+            "version": "7.8.0",
+            "providers": [
+                {
+                  "name": "virtualbox",
+                  "url": "virtualbox.box"
+                }
+            ]
+        }
+    ]
+}
