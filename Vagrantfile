@@ -1,7 +1,7 @@
 VAGRANTFILE_API_VERSION = '2'
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  # Configure The Box
+  # Configure The Base Box
   config.vm.box = 'laravel/homestead'
   config.vm.hostname = 'homestead'
 
